@@ -1,0 +1,38 @@
+.left{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightgrey;
+}
+
+div{
+	text-align: center;
+	padding-top: 70px;
+}
+
+.right{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: lightpink;
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5{
+	display: none;
+}
+
+.a1 .b1,
+.a2 .b2,
+.a3 .b3,
+.a4 .b4,
+.a5 .b5{
+	display: block;
+}
