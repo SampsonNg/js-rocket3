@@ -21,6 +21,35 @@ div{
 	background-color: lightpink;
 }
 
+.rocket{
+	position: absolute;
+	width:20px;
+	height: 100px;
+	background-color: blue;
+	bottom: 100px;
+	left: 50%;
+	z-index: 10;
+	transition: bottom 10000ms;
+}
+
+.a3 .rocket,
+.a4 .rocket{
+	bottom: 1000px;
+}
+
+.a1 .rocket{
+	transition: none;
+}
+
+.ground{
+	position: absolute;
+	width:100%;
+	height: 20px;
+	background-color: green;
+	bottom: 30px;
+	left: 0px;
+}
+
 .b1,
 .b2,
 .b3,
